@@ -1,0 +1,293 @@
+/* 
+*{
+    margin: 0 auto 0 auto;
+} */
+
+/* body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+    padding: 0;
+    text-align: justify;
+    
+    font-size: 15px;
+
+
+} */
+
+.nav_bar {
+  display: flex;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  position: static;
+}
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  gap: 20px;
+}
+#logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+#logo p {
+  font-size: 30px;
+  color: rgb(8, 0, 0);
+  font-weight: bolder;
+}
+#logo p span {
+  color: white;
+  font-size: 50px;
+}
+.nav_list {
+  gap: 20px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.nav_list a {
+  font-size: 30px;
+  align-items: center;
+
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav_list a:hover {
+  color: white;
+}
+.upper_section {
+  /* padding: 150px; */
+  background-image: url(images/contact\ us.jpg);
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  /* color: grey; */
+}
+
+.lower_section {
+  /* display: flex; */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.promo_images {
+  display: flex;
+  flex-wrap: wrap;
+  /* overflow-x: scroll; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 40px;
+  width: 100%;
+}
+
+.promo_images img {
+  display: flex;
+	align-self: center;
+	justify-content: center;
+	align-items: center  ;
+	height: 30rem;
+	width: 30rem;
+  border-radius: 30px;
+  gap: 30px;
+}
+.promo_images a img:hover{
+  box-shadow: 0 0 0 13px red;
+  background-color: green;
+  transition: 0.1s;
+
+
+}
+
+footer {
+  /* border-radius: 30px; */
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+footer h1{
+  font-size: 50px;
+ text-align: center;
+}
+
+.ourservice_main_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.what_wedo_inner_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 400px;
+  font-size: larger;
+  gap: 30px;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+}
+#social_media_outer_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:rgb(27, 26, 26);
+  border-radius: 10px;
+}
+.social_media_images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 10px;
+  margin-top: 30px;
+}
+.social_media_images p{
+  font-size: 30px;
+}
+.social_media_images img {
+  height: 60px;
+  width: 60px;
+
+}
+
+
+
+.social_media_images a img:hover{
+  box-shadow:  0 0 13px rgb(234, 224, 224);
+  transition: 0.1s;
+  transition: ease-in;
+
+
+}
+.lower_section h1{
+  font-size: 50px;
+}
+.lower_section h1:hover{
+  color: blue;
+}
+#whatsapp{
+  background-color: white;
+  border-radius: 50%;
+}
+#copyright{
+  color: white;
+}
+
+.promotion_image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.promotion_image p{
+  font-size: 40px;
+}
+.promotion_image h1{
+  font-size: 50px;
+  background-color:red;
+  border-radius: 15px;
+}
+.promotion_image  img{
+  border-radius: 15px;
+}
+/* nav  {
+	
+	
+	width: 100%;
+	padding-bottom: 5rem;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+	padding-left: 1.4rem;
+	padding-right: 1.4rem;
+    text-align: center;
+} */
+
+/* nav a {
+}
+
+a:visited {
+  background-color: rgb(140, 0, 255);
+}
+a:active {
+  background-color: red;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1,
+h2 {
+  color: #333;
+  font-size: 2.5rem;
+} */
+
+/* section { */
+/* margin: auto; */
+/* padding: 0%; */
+/* text-align: center; */
+/* padding-top: 200px; */
+/* } */
+/* section p {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-top: 20px;
+  line-height: 1.5rem;
+}
+.image {
+  height: 120px;
+  width: 200px;
+  padding-top: 20px;
+}
+section h2 {
+  color: chartreuse;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+}
+.service {
+  padding-top: 5rem;
+  line-height: 1.5rem;
+  margin-left: 3rem;
+  background-color: green;
+}
+div h2 {
+  padding-bottom: 3rem;
+  color: black;
+}
+div ul {
+  line-height: 2.5rem;
+  font-size: 1rem;
+  background-color: black;
+}
+div ul :hover {
+  background-color: gray;
+  border-radius: justify;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+  /* background-image: url(images/download.jpg); */
+/* background-size: cover;
+}
+.email,
+.whatsapp,
+.telephone {
+  color: aliceblue;
+  width: 200px;
+  height: 300px;
+  background-color: lightgreen;
+  margin-right: 2px;
+}
+.email,
+.telephone {
+  padding-top: 10px;
+} */

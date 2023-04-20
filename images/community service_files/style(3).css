@@ -1,0 +1,15 @@
+/*
+Theme Name:     Unicom-Child
+Description:    Child theme for the finance
+Author:         Themesflat
+Template:       unicom
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+
+
+.flat-imagebox .flat-imagebox-header .flat-imagebox-subtitle {
+    color: #fff;
+    margin-bottom: -5px;
+}

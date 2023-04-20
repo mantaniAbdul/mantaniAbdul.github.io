@@ -1,0 +1,159 @@
+.nav_bar {
+  display: flex;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  position: static;
+}
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  gap: 20px;
+}
+#logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+#logo p {
+  font-size: 30px;
+  color: grey;
+}
+#logo p span {
+  color: white;
+  font-size: 50px;
+}
+.nav_list {
+  gap: 20px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.nav_list a {
+  font-size: 30px;
+  align-items: center;
+
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav_list a:hover {
+  color: white;
+}
+
+.below_nav {
+  background-image: url(images/con2backgroud.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+  margin-bottom: 90px;
+}
+.below_nav div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* gap: -20px;  */
+}
+
+.below_nav div h2 {
+  color: white;
+  font-size: 50px;
+}
+
+.below_nav div p {
+  color: white;
+  font-size: 40px;
+}
+.below_nav p a {
+  text-decoration: none;
+  color: red;
+}
+
+.inner_social_responsibility {
+  display: flex;
+}
+
+.outer_social_responsibility_cont {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  gap: 20px;
+  font-size: 35px;
+}
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+#title:hover {
+  display: flex;
+  color: red;
+  background-color: black;
+  width: 50%;
+  margin-left: 30%;
+  border-radius: 30px;
+}
+.outer_social_responsibility_cont span h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.outer_social_responsibility_cont span img {
+  border-radius: 20px;
+}
+.outer_social_responsibility_cont span:hover img {
+  background-image: red;
+  opacity: 20%;
+  transition: 0.3s;
+  color: green;
+}
+
+.outer_social_responsibility_cont span a {
+  text-decoration: none;
+  font-size: 25px;
+}
+.outer_social_responsibility_cont span a:hover {
+  color: green;
+}
+
+.coreSocialsService_button_footer {
+  display: flex;
+  background-color: brown;
+}
+.coreSocialsService_button_footer_inner_cont img {
+  align-items: center;
+  height: 30px;
+  width: 30px;
+}
+.coreSocialsService_button_footer_inner_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40rem;
+  gap: 20px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.warehse_cont {
+  display: flex;
+  margin-top: 50px;
+}
+
+#warehse_images {
+  display: flex;
+
+  margin-top: 30px;
+  gap: 20px;
+}
